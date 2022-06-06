@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KYTC</string>
+    <string-array name="semesters">
+        <item>ALL</item>
+        <item>first semester</item>
+        <item>second semester</item>
+    </string-array>
+</resources>

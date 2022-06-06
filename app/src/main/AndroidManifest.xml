@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kytc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KYTC">
+        <activity
+            android:name=".ThirdProject.EditCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdProject.ShowAllCourses"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdProject.InsertActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RoomDataBase.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SQLiteDatabase101ahmed.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SqliteDatabase.AllCars"
+            android:exported="false" />
+        <activity android:name=".Sharedpreferences101.FormActivity" />
+        <activity android:name=".Sharedpreferences101.SharedPreActivity" />
+        <activity android:name=".Sharedpreferences101.RVActivity" />
+        <activity android:name=".SharedPreferences.ViewPeopleActivity" />
+        <activity android:name=".SharedPreferences.FillDataActivity" />
+        <activity android:name=".Adapters101.ListViewActivity101" />
+        <activity android:name=".Adapters.RecyclerActivity" />
+        <activity android:name=".Adapters.MainActivity" />
+        <activity
+            android:name=".SqliteDatabase.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

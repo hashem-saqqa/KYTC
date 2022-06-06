@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SqliteDatabase.MainActivity">
+
+    <EditText
+        android:id="@+id/car_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="Enter the car name"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        />
+    <EditText
+        android:id="@+id/car_color_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/car_name_et"
+        android:hint="Enter the car color"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        />
+    <EditText
+        android:id="@+id/car_year_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/car_color_et"
+        android:hint="Enter the car year"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        />
+<Button
+    android:id="@+id/add_bt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toStartOf="@id/update_bt"
+    app:layout_constraintTop_toBottomOf="@id/car_year_et"
+    android:layout_marginTop="20dp"
+    android:backgroundTint="#FF5722"
+    android:text="Add"
+    />
+    <Button
+        android:id="@+id/update_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/add_bt"
+        app:layout_constraintEnd_toStartOf="@id/delete_bt"
+        app:layout_constraintTop_toBottomOf="@id/car_year_et"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF5722"
+        android:text="update"
+        />
+    <Button
+        android:id="@+id/delete_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/update_bt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/car_year_et"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF5722"
+        android:text="delete"
+        />
+    <Button
+        android:id="@+id/viewAllCars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/add_bt"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF5722"
+        android:text="view All Cars"
+        />
+    <Button
+        android:id="@+id/getAllCarsCountBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewAllCars"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF5722"
+        android:text="get all cars count"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

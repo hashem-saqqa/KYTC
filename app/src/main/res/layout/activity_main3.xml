@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SQLiteDatabase101ahmed.MainActivity">
+<EditText
+    android:id="@+id/carNameEt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="20dp"
+    android:hint="enter the car name"
+    />
+    <EditText
+        android:id="@+id/carColorEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/carNameEt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="enter the car color"
+        />
+    <EditText
+        android:id="@+id/carYearEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/carColorEt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="enter the car year"
+        />
+    <Button
+        android:id="@+id/addBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/updateBt"
+        app:layout_constraintTop_toBottomOf="@id/carYearEt"
+        android:layout_marginTop="30dp"
+        android:text="Add"
+        android:backgroundTint="#FF5722"
+        />
+    <Button
+        android:id="@+id/updateBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/addBt"
+        app:layout_constraintEnd_toStartOf="@id/deleteBt"
+        app:layout_constraintTop_toBottomOf="@id/carYearEt"
+        android:layout_marginTop="30dp"
+        android:text="update"
+        android:backgroundTint="#FF5722"
+        />
+    <Button
+        android:id="@+id/deleteBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/updateBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/carYearEt"
+        android:layout_marginTop="30dp"
+        android:text="delete"
+        android:backgroundTint="#FF5722"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
