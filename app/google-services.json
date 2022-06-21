@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "378314584230",
+    "project_id": "kytc-58c2b",
+    "storage_bucket": "kytc-58c2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378314584230:android:56ca26d8a049e10c0d8467",
+        "android_client_info": {
+          "package_name": "com.example.kytc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378314584230-o50k4ep4g3httiq4f5nnn20u948p6bck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCanZ3MTo-KE6Yr754fQwTFNvqxJmxSIPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378314584230-o50k4ep4g3httiq4f5nnn20u948p6bck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

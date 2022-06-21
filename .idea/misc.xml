@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_all_cars.xml" value="0.25" />
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_edit_course.xml" value="0.2359375" />
+        <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_insert.xml" value="0.25" />
+        <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_main2.xml" value="0.264" />
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_main3.xml" value="0.176" />
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_main4.xml" value="0.25" />
@@ -13,6 +15,8 @@
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_main6.xml" value="0.2" />
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_main7.xml" value="0.25" />
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_main8.xml" value="0.25" />
+        <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_main9.xml" value="0.25" />
+        <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/activity_show_all_courses.xml" value="0.25" />
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/cars_item.xml" value="0.25" />
         <entry key="..\:/Users/HASHEM/AndroidStudioProjects/KYTC/app/src/main/res/layout/fragment_blank.xml" value="0.25" />

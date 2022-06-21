@@ -1,10 +1,19 @@
 package com.example.kytc.Retrofit;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Post {
     private int userId;
-    private int id;
+    @SerializedName("id")
+    private int postId;
     private String title;
     private String body;
+
+    public Post(int userId, String title, String body) {
+        this.userId = userId;
+        this.title = title;
+        this.body = body;
+    }
 
     public int getUserId() {
         return userId;
@@ -15,11 +24,11 @@ public class Post {
     }
 
     public int getId() {
-        return id;
+        return postId;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.postId = id;
     }
 
     public String getTitle() {
