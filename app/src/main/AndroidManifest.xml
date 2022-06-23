@@ -13,19 +13,20 @@
         android:theme="@style/Theme.KYTC">
         <activity
             android:name=".Firebase.HomeActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
         <activity
             android:name=".Firebase.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".Firebase.RegisterActivity"
-            android:exported="false" >
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".Retrofit.MainActivity"
